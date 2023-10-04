@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: aliceblue;
+  background-color: #2b2929;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  padding:0 20px;
+  justify-content: space-between;
+  background-color: #000;
+  align-items: center;
+}
+
+.logo{
+  width: 200px;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap:2rem;
+  color: aliceblue;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+span{
+  font-size: 1.8rem;
+  
+}
+
+.carrito-btn a{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  border: 1px solid RED;
+  padding: 7.5px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+  background-color: aliceblue;
+  color: #000;
+  margin: 2px;
+  border: #2b2929;
+  padding: 10px;
+}
+
+.item-list-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "categoria": "accesorios",
+        "nombre_producto": "Traba-disco",
+        "descripcion": "Alarma Incorporada: Este candado cuenta con una alarma sonora que se activa automáticamente cuando se detectan movimientos o vibraciones no autorizadas. Disuade a los ladrones y alerta a los propietarios y a las personas cercanas.",
+        "precio": 49.99,
+        "imagen": "../img/productos/accesorios-trabadisco.jpg"
+    },
+    {
+        "id": 2,
+        "categoria": "accesorios",
+        "nombre_producto": "Baul",
+        "descripcion": "Baul desmontable 40L",
+        "precio": 14.99,
+        "imagen": "../img/productos/accesorios-baul.jpg"
+    },
+    {
+        "id": 3,
+        "categoria": "accesorios",
+        "nombre_producto": "Porta GPS",
+        "descripcion": "Porta GPS de gran calidad, impermeable, anti vibraciones",
+        "precio": 14.99,
+        "imagen": "../img/productos/accesorios-portagps.jpg"
+    },
+    {
+        "id": 4,
+        "categoria": "repuestos",
+        "nombre_producto": "Escape Deportivo",
+        "descripcion": "Escape Deportivo de competición universal",
+        "precio": 29.99,
+        "imagen": "../img/productos/repuestos-escape.jpg"
+    },
+    {
+        "id": 5,
+        "categoria": "repuestos",
+        "nombre_producto": "Kit Embrague",
+        "descripcion": "Kit de discos de embrague original",
+        "precio": 39.99,
+        "imagen": "../img/productos/repuestos-embrague.jpg"
+    },
+    {
+        "id": 6,
+        "categoria": "indumentaria",
+        "nombre_producto": "Botas MotoCross",
+        "descripcion": "Botas Oneal MotoCross, todos los talles",
+        "precio": 19.99,
+        "imagen": "../img/productos/indumentaria-botas.jpg"
+    },
+    {
+        "id": 7,
+        "categoria": "indumentaria",
+        "nombre_producto": "Pechera Integral",
+        "descripcion": "Armadura con protección en espalda, hombro, brazos y pecho",
+        "precio": 59.99,
+        "imagen": "../img/productos/indumentaria-pechera.jpg"
+    }
+]
