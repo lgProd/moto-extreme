@@ -1,17 +1,13 @@
 import React from 'react'
-import logo from "../Img/extreme-logo-trans.png"
+import logo from "../img/extreme-logo-trans.png"
 import CartWidget from './CartWidget'
 import { Link } from 'react-router-dom'
-
-
 
 
 export const Navbar = () => {
 
 
-
     return (
-
 
         <nav>
             <div>
@@ -23,16 +19,12 @@ export const Navbar = () => {
             </div>
             <ul>
               
-                <li><Link to={`/Category/Repuestos`}>Repuestos</Link></li>
-                <li><Link to={`/Category/Accesorios`}>Accesorios</Link></li>
-                <li><Link to={`/Category/Indumentaria`}>Indumentaria</Link></li>
+                <li><Link className='nav-link' to={`/Category/Repuestos`}>Repuestos</Link></li>
+                <li><Link className='nav-link' to={`/Category/Accesorios`}>Accesorios</Link></li>
+                <li><Link className='nav-link' to={`/Category/Indumentaria`}>Indumentaria</Link></li>
             </ul>
             <CartWidget/>
         </nav>
-
-
-
-
 
 
     )

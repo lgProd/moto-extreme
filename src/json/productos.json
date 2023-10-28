@@ -5,7 +5,7 @@
         "nombre_producto": "Traba-disco",
         "descripcion": "Alarma Incorporada: Este candado cuenta con una alarma sonora que se activa automáticamente cuando se detectan movimientos o vibraciones no autorizadas. Disuade a los ladrones y alerta a los propietarios y a las personas cercanas.",
         "precio": 49.99,
-        "imagen": "../img/productos/accesorios-trabadisco.jpg"
+        "imagen": "/img/productos/accesorios-trabadisco.jpg"
     },
     {
         "id": 2,
@@ -53,6 +53,6 @@
         "nombre_producto": "Pechera Integral",
         "descripcion": "Armadura con protección en espalda, hombro, brazos y pecho",
         "precio": 59.99,
-        "imagen": "../img/productos/indumentaria-pechera.jpg"
+        "imagen": "/img/productos/indumentaria-pechera.jpeg"
     }
 ]
